@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "title": "Kullanıcılar",
+      "icon": "AccountBox",
+      "children": [
+        {
+          "id": 11,
+          "title": "Kullanıcılar",
+          "icon": "AccountBox"
+        },
+        {
+          "id": 12,
+          "title": "Roller",
+          "icon": "AssignmentInd",
+          "children":[
+            {
+              "id": 113,
+              "title":"Yeni Rol Eklemek",
+              "icon":"Abc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Projeler",
+      "icon": "Business",
+      "children": [
+        {
+          "id": 21,
+          "title": "Aktif Projeler",
+          "icon": "Business"
+        },
+        {
+          "id": 22,
+          "title": "Pasif Projeler",
+          "icon": "Business"
+        },
+        {
+          "id": 23,
+          "title": "Bekleyen Projeler",
+          "icon": "Business"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Müşteriler",
+      "icon": "SupervisedUserCircle"
+    },
+    {
+      "id": 4,
+      "title": "Çözüm Ortakları",
+      "icon": "SupervisedUserCircle"
+    },
+    {
+      "id": 5,
+      "title": "Muhasebe",
+      "icon": "AttachMoney"
+    },
+    {
+      "id": 6,
+      "title": "Ürünler",
+      "icon": "ShoppingCart",
+      "children": [
+        {
+          "id": 41,
+          "title": "Kategoriler",
+          "icon": "ShoppingCart"
+        },
+        {
+          "id": 42,
+          "title": "Ürünler",
+          "icon": "ShoppingCart"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Genel Ayarlar",
+      "icon": "Settings",
+      "children": [
+        {
+          "id": 51,
+          "title": "Dil Yönetimi",
+          "icon": "Translate"
+        },
+        {
+          "id": 52,
+          "title": "Para Birimi",
+          "icon": "MonetizationOn"
+        },
+        {
+          "id": 53,
+          "title": "Özellikler",
+          "icon": "Flag"
+        },
+        {
+          "id": 54,
+          "title": "Ayarlar",
+          "icon": "Settings"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "./breakpoint";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+
+.Login {
+    height: 100vh;
+    color: #212B36;
+
+    .leftContent {
+        padding-top: 20px;
+
+        .Form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90%;
+
+            .FormContent {
+                text-align: center;
+                margin-top: 50px;
+                width: 500px;
+
+            }
+
+            .formText {
+                text-align: center;
+                width: 350px;
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 48px;
+                    margin-bottom: 15px;
+                }
+            }
+
+            button {
+                text-transform: capitalize;
+            }
+
+            .LoginBtn {
+                font-size: 15px;
+                background: #63C;
+                height: 48px;
+            }
+
+            .forgotBtn {
+                justify-content: end;
+                color: #212B36;
+                font-size: 16px;
+                float: right;
+            }
+        }
+
+        .copyright {
+            color: #212b36;
+            font-size: 16px;
+        }
+    }
+
+    .rightContent {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            padding: 20px 0;
+            box-sizing: border-box;
+            width: auto;
+            height: 100vh;
+        }
+    }
+}
+
+.header{
+    .appBar{
+        background-color: white;
+        color:#1c2025;
+        .icon{
+            .mailIcon,.notificationsIcon,.profileIcon{
+                margin: 10px;
+                padding:10px;
+            }
+        }
+        .search{
+            background-color: rgb(198, 196, 196);
+        }
+        .logo{
+            max-width: 150px;
+            min-height: 50px;
+            object-fit: contain;
+            display: block;
+            padding: 15px;
+            img{
+                max-width: 100%;
+                position: relative;
+            }
+        }
+    }
+}
+
+
+.outletContent{
+    min-height: 83vh;
+    overflow: auto;
+    @include media('<=desktop') {
+        min-height: 78vh; 
+    }
+}
+.leftContent{
+    margin: 0 !important;
+    padding: 0 !important;
+    .sideBar {
+        padding: 0 0 0 15px;
+        height: 90vh;
+        overflow: auto;
+        background-color: #1c2025;
+        @include media('<=desktop') {
+            height: 88vh;
+        }
+        .list{
+            border-bottom: 1px solid #bbb;
+            box-sizing: border-box;
+        }
+        svg{
+            color:#eee
+        }
+        span{
+            font-size: 14px;
+            line-height: 26px;
+            color: #FFF;
+        }
+        #nested-list-subheader {
+            background: none;
+            color:#eee;
+            font-size: 20px;
+            border-bottom: 2px solid #FFF;
+            box-sizing: border-box;
+        }
+    }
+}
